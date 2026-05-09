@@ -7,7 +7,7 @@
 ## 2. Dựng Hạ tầng Docker
 Sử dụng SSH để kết nối sang IDE (VS code) giúp thao tác edit dễ dàng hơn
 ### a) Tạo thư mục dự án:"camdo" trong Ubuntu server
-<img width="372" height="26" alt="image" src="https://github.com/user-attachments/assets/a0a13aa7-4021-4804-8898-3cf9fbcc41d5" />
+<img width="372" height="26" alt="image" src="https://github.com/user-attachments/assets/a0a13aa7-4021-4804-8898-3cf9fbcc41d5" /> <br>
 ### b) Tại thư mục dự án tạo các thư mục:
 1. File requirements.txt<br>
 <img width="342" height="140" alt="image" src="https://github.com/user-attachments/assets/ca4be9b4-62de-4df6-ac67-da6edeeae2f3" />
@@ -19,7 +19,7 @@ Sử dụng SSH để kết nối sang IDE (VS code) giúp thao tác edit dễ d
 docker compose build
 docker compose up -d
 Kiểm tra bằng docker ps
-<img width="1007" height="158" alt="image" src="https://github.com/user-attachments/assets/5ba9881d-488e-46bd-9c68-513cba3998c1" />
+<img width="1007" height="158" alt="image" src="https://github.com/user-attachments/assets/5ba9881d-488e-46bd-9c68-513cba3998c1" /> <br>
 ## 3. Khởi tạo Code Django & Cấu hình <br>
 ### a) Tạo Project và App:<br>
 Chạy các command dưới đây: 
