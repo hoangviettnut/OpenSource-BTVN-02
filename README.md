@@ -52,11 +52,12 @@ Kết nối DB: Sửa khối DATABASES thành:
 
 ### a) Viết Models (pawn_app/models.py): 
 
-<img width="1325" height="687" alt="image" src="https://github.com/user-attachments/assets/5c56b28c-502d-4584-b35b-970496a58e66" />
+<img width="1608" height="757" alt="image" src="https://github.com/user-attachments/assets/038f22e2-1fac-4578-bcff-d21f7de8fb94" />
 
 ### b) Cấu hình Admin (pawn_app/admin.py): 
 
-<img width="1035" height="253" alt="image" src="https://github.com/user-attachments/assets/d1c6f85a-2b81-46e3-9d59-cfeea33b0cc2" />
+<img width="1012" height="280" alt="image" src="https://github.com/user-attachments/assets/cc7a923f-0ce2-4415-8ab2-be395c4c1d14" />
+
 
 ### c) Áp dụng CSDL và Tạo Superuser: 
 
@@ -81,7 +82,8 @@ Truy cập: http://192.168.1.17:8081 để view bằng phpmyadmin
 
 ### a) Viết View (pawn_app/views.py):
 
-<img width="1025" height="611" alt="image" src="https://github.com/user-attachments/assets/17f47f08-b253-416e-bbc6-47e2b3a52179" />
+<img width="1043" height="549" alt="image" src="https://github.com/user-attachments/assets/4bd72259-7ca6-43f4-9a9f-6b2e0ae13c6d" />
+
 
 
 ### b) Cấu hình URLs (config/urls.py):
