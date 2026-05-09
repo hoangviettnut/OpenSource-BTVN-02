@@ -187,9 +187,13 @@ networks:
 <img width="1376" height="631" alt="image" src="https://github.com/user-attachments/assets/0cc88f5b-a251-4bf6-b07c-14f14b238b65" />
 
 Sau đó truy cập nơi chứa nginx tổng chạy lệnh: docker compose restart nginx-master
+
 Tại project camdo: 
+
+```
 docker compose down
 docker compose up -d
+```
 
 ### d) Thêm subdomain để truy cập
 
