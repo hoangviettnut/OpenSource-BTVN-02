@@ -106,6 +106,11 @@ Truy cập: http://192.168.1.17:8001/admin/ để đăng nhập vào Django
 
 <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/c8aa3e3f-a35d-451f-824c-469cdb0498a6" />
 
+Test thêm dữ liệu vào(đã được):
+
+<img width="1911" height="995" alt="image" src="https://github.com/user-attachments/assets/b975e0f5-03c2-46be-81d9-eb972f68c4bd" />
+
+
 Truy cập: http://192.168.1.17:8081 để view bằng phpmyadmin
 
 <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/3780a218-dfa9-4155-a53f-fc7e3f24b240" />
