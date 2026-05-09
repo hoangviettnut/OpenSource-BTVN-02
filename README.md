@@ -62,6 +62,7 @@ Truy cập: http://192.168.1.17:8001/admin/ để đăng nhập vào Django
 ### a) Viết View (pawn_app/views.py):
 
 <img width="981" height="236" alt="image" src="https://github.com/user-attachments/assets/72b76ff0-7031-44d7-beea-db949b202b1c" />
+
 ### b) Cấu hình URLs (config/urls.py):
 
 <img width="560" height="241" alt="image" src="https://github.com/user-attachments/assets/a22363e5-989d-41b5-82d6-f4f1250e8bf2" />
