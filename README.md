@@ -18,9 +18,13 @@ Sử dụng SSH để kết nối sang IDE (VS code) giúp thao tác edit dễ d
 3. File docker-compose.yml
 <img width="1339" height="987" alt="image" src="https://github.com/user-attachments/assets/3a724a0e-f90a-4d9b-943c-570675669b01" />
 4. Khởi động bằng lệnh:
+
 docker compose build
+
 docker compose up -d
+
 Kiểm tra bằng docker ps
+
 <img width="1007" height="158" alt="image" src="https://github.com/user-attachments/assets/5ba9881d-488e-46bd-9c68-513cba3998c1" /> 
 
 ## 3. Khởi tạo Code Django & Cấu hình 
@@ -29,15 +33,21 @@ Kiểm tra bằng docker ps
 
 Chạy các command dưới đây: 
 <img width="1049" height="89" alt="image" src="https://github.com/user-attachments/assets/cc70e76b-9c59-443b-9ffd-82159c58337b" />
+
 Sau khi chạy sẽ sinh thêm các Components mới: 
+
 <img width="371" height="217" alt="image" src="https://github.com/user-attachments/assets/25e7696f-f870-461f-8d57-77690ee04d95" />
 
 ### b) Sửa file config/settings.py 
 
 Cấp phép truy cập: ALLOWED_HOSTS = ['*']
+
 Khai báo app: Thêm 'pawn_app', vào list INSTALLED_APPS
+
 Kết nối DB: Sửa khối DATABASES thành:
+
 <img width="475" height="249" alt="image" src="https://github.com/user-attachments/assets/37ac64a9-988d-410b-9296-8a2087dd3125" />
+
 ## 4. Tạo Bảng và Giao diện Admin 
 
 ### a) Viết Models (pawn_app/models.py): 
@@ -51,11 +61,21 @@ Kết nối DB: Sửa khối DATABASES thành:
 ### c) Áp dụng CSDL và Tạo Superuser: 
 
 Sử dụng các command dưới đây lần lượt:
+
 docker compose exec web python manage.py makemigrations
+
 docker compose exec web python manage.py migrate
+
 docker compose exec web python manage.py createsuperuser
+
 Sau đó tạo user: luongviet, pw: viet2004
+
 Truy cập: http://192.168.1.17:8001/admin/ để đăng nhập vào Django
+
+Truy cập: http://192.168.1.17:8081 để view bằng phpmyadmin
+
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/8f82d23e-51ed-4ebb-b65d-b0f024c27ca3" />
+
 
 ## 5. Tạo trang "Con Nợ Đến Hạn"
 
@@ -69,6 +89,7 @@ Truy cập: http://192.168.1.17:8001/admin/ để đăng nhập vào Django
 <img width="560" height="241" alt="image" src="https://github.com/user-attachments/assets/a22363e5-989d-41b5-82d6-f4f1250e8bf2" />
 
 Truy cập vào Django để test: 
+
 <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/6dd3f693-8c98-4520-a321-e278a1593bd2" />
 
 
@@ -113,15 +134,19 @@ docker compose up -d
 ### d) Thêm subdomain để truy cập
 
 Xem danh sách con nợ: camdo.luonghoangviet.io.vn
-View bằng PHP: pma.luonghoangviet.io.vn
+
+Thêm view bằng PHP: pma.luonghoangviet.io.vn
+
 Truy cập kiểm tra: 
+
 camdo.luonghoangviet.io.vn
 
 <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/6ddad18f-1d2c-4bb6-9058-429613c72091" />
 
 pma.luonghoangviet.io.vn
 
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/6517d143-695c-4380-80c7-3a738b9a331e" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/43f2cdb6-b70e-430b-99ee-1f33feaafef9" />
+
 
 
 
