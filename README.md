@@ -20,23 +20,23 @@ docker compose build
 docker compose up -d
 Kiểm tra bằng docker ps
 <img width="1007" height="158" alt="image" src="https://github.com/user-attachments/assets/5ba9881d-488e-46bd-9c68-513cba3998c1" />
-## 3. Khởi tạo Code Django & Cấu hình
-### a) Tạo Project và App:
+## 3. Khởi tạo Code Django & Cấu hình <br>
+### a) Tạo Project và App:<br>
 Chạy các command dưới đây: 
 <img width="1049" height="89" alt="image" src="https://github.com/user-attachments/assets/cc70e76b-9c59-443b-9ffd-82159c58337b" />
 Sau khi chạy sẽ sinh thêm các Components mới: 
 <img width="371" height="217" alt="image" src="https://github.com/user-attachments/assets/25e7696f-f870-461f-8d57-77690ee04d95" />
-### b) Sửa file config/settings.py
+### b) Sửa file config/settings.py <br>
 Cấp phép truy cập: ALLOWED_HOSTS = ['*']
 Khai báo app: Thêm 'pawn_app', vào list INSTALLED_APPS
 Kết nối DB: Sửa khối DATABASES thành:
 <img width="475" height="249" alt="image" src="https://github.com/user-attachments/assets/37ac64a9-988d-410b-9296-8a2087dd3125" />
-## 4. Tạo Bảng và Giao diện Admin
-### a) Viết Models (pawn_app/models.py):
+## 4. Tạo Bảng và Giao diện Admin <br>
+### a) Viết Models (pawn_app/models.py): <br>
 <img width="1325" height="687" alt="image" src="https://github.com/user-attachments/assets/5c56b28c-502d-4584-b35b-970496a58e66" />
-### b) Cấu hình Admin (pawn_app/admin.py):
+### b) Cấu hình Admin (pawn_app/admin.py): <br>
 <img width="1035" height="253" alt="image" src="https://github.com/user-attachments/assets/d1c6f85a-2b81-46e3-9d59-cfeea33b0cc2" />
-### c) Áp dụng CSDL và Tạo Superuser:
+### c) Áp dụng CSDL và Tạo Superuser: <br>
 Sử dụng các command dưới đây lần lượt:
 docker compose exec web python manage.py makemigrations
 docker compose exec web python manage.py migrate
