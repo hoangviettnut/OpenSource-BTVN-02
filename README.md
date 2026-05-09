@@ -201,7 +201,7 @@ Truy cập kiểm tra:
 
 camdo.luonghoangviet.io.vn
 
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/8c89c9c3-ecee-45fe-a7a1-5ac8e49d5bce" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/3e45860e-78bf-4351-bedf-ab129c0866a1" />
 
 pma.luonghoangviet.io.vn
 
