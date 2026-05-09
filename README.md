@@ -112,6 +112,36 @@ Truy cập: http://192.168.1.17:8081 để view bằng phpmyadmin
 
 ### c) Tạo Template HTML (pawn_app/templates/home.html):
 
+Đoạn code sử dụng Jinja 2:
+```
+{% for hd in con_no %}
+        <tr
+            class="{% if hd.phan_loai == 'qua_han' %}hang-qua-han{% elif hd.phan_loai == 'sap_han' %}hang-sap-han{% else %}hang-trong-han{% endif %}">
+            <td>{{ hd.khach_hang.ho_ten }}</td>
+            <td>{{ hd.khach_hang.sdt }}</td>
+            <td>{{ hd.the_chap }}</td>
+            <td>{{ hd.so_tien }} VNĐ</td>
+            <td>
+                {{ hd.dead_line|date:"d/m/Y" }}
+
+                {% if hd.phan_loai == 'qua_han' %}
+                <span class="badge badge-do">ĐÃ QUÁ HẠN</span>
+                {% elif hd.phan_loai == 'sap_han' %}
+                <span class="badge badge-vang">Sắp đến hạn</span>
+                {% else %}
+                <span class="badge badge-xanh">Trong hạn (An toàn)</span>
+                {% endif %}
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="5" style="text-align: center; padding: 20px; font-weight: bold;">Không có hợp đồng nào đang
+                cầm.</td>
+        </tr>
+        {% endfor %}
+```
+
+
 Thêm dữ liệu và truy cập http://192.168.1.17:8001/ để kiểm tra template:
 
 <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/00a93552-b36e-4996-924e-167e62dcc34d" />
