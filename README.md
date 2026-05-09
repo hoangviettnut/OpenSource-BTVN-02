@@ -3,7 +3,10 @@
 # MÔN HỌC: PHÁT TRIỂN ỨNG DỤNG VỚI MÃ NGUỒN MỞ
 # BÀI TẬP 02
 # BÀI LÀM
-## 1. Thiết kế Cơ sở dữ liệu
+## 1. Thiết kế Cơ sở dữ liệu ( vẽ tay)
+
+<img width="1920" height="2560" alt="z7808644023397_9213dabaab6ae17d1e313be2d2c207e0" src="https://github.com/user-attachments/assets/46847ec7-55f6-4475-a379-a377610c300f" />
+
 ## 2. Dựng Hạ tầng Docker
 Sử dụng SSH để kết nối sang IDE (VS code) giúp thao tác edit dễ dàng hơn
 ### a) Tạo thư mục dự án:"camdo" trong Ubuntu server
