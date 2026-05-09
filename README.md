@@ -108,13 +108,19 @@ Thêm dữ liệu và truy cập http://192.168.1.17:8001/ để kiểm tra temp
 
 Add các dòng này vào mỗi Container
 networks:
+
       - default
+      
       - web-gateway
 
 Thêm phần này vào cuối file
+
 networks:
+
   default:
+  
   web-gateway:
+  
     external: true
 
 ### Note: Trong bài này cấu hình sử dụng Nginx và Cloudflare thành master nên chỉ cần mở 1 port cho nhiều project => Thêm cấu hình là xong thay vì phải tạo ở các Container của từng project => Tiết kiệm RAM, port.
