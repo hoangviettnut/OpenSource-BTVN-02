@@ -43,12 +43,12 @@ docker compose exec web python manage.py migrate
 docker compose exec web python manage.py createsuperuser
 Sau đó tạo user: luongviet, pw: viet2004
 Truy cập: http://192.168.1.17:8001/admin/ để đăng nhập vào Django
-## 5. Tạo trang "Con Nợ Đến Hạn"
-### a) Viết View (pawn_app/views.py):
-<img width="981" height="236" alt="image" src="https://github.com/user-attachments/assets/72b76ff0-7031-44d7-beea-db949b202b1c" />
-### b) Cấu hình URLs (config/urls.py):
+## 5. Tạo trang "Con Nợ Đến Hạn"<br>
+### a) Viết View (pawn_app/views.py):<br>
+<img width="981" height="236" alt="image" src="https://github.com/user-attachments/assets/72b76ff0-7031-44d7-beea-db949b202b1c" /><br>
+### b) Cấu hình URLs (config/urls.py):<br>
 <img width="560" height="241" alt="image" src="https://github.com/user-attachments/assets/a22363e5-989d-41b5-82d6-f4f1250e8bf2" />
-### c) Tạo Template HTML (pawn_app/templates/home.html):
+### c) Tạo Template HTML (pawn_app/templates/home.html):<br>
 <img width="368" height="104" alt="image" src="https://github.com/user-attachments/assets/922222a9-d116-4dc3-894f-2ae316c279a6" />
 
 
