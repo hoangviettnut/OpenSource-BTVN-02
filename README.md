@@ -122,7 +122,7 @@ networks:
   
     external: true
 
-### Note: Trong bài này cấu hình sử dụng Nginx và Cloudflare thành master nên chỉ cần mở 1 port cho nhiều project => Thêm cấu hình là xong thay vì phải tạo ở các Container của từng project => Tiết kiệm RAM, port.
+### Note: Trong bài này cấu hình sử dụng Nginx và Cloudflare thành master nên chỉ cần mở 1 port cho nhiều project => Thêm cấu hình là xong thay vì phải tạo thêm Container vào docker-compose.yml của từng project => Tiết kiệm RAM, port.
 ### b) Cấu hình Nginx.conf
 
 <img width="934" height="824" alt="image" src="https://github.com/user-attachments/assets/64692b26-1879-4be4-ae2b-a2687053608a" />
