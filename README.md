@@ -20,6 +20,7 @@ docker compose build
 docker compose up -d
 Kiểm tra bằng docker ps
 <img width="1007" height="158" alt="image" src="https://github.com/user-attachments/assets/5ba9881d-488e-46bd-9c68-513cba3998c1" /> <br>
+
 ## 3. Khởi tạo Code Django & Cấu hình <br>
 
 ### a) Tạo Project và App:<br>
