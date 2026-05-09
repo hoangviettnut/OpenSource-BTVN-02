@@ -86,7 +86,7 @@ docker compose exec web python manage.py createsuperuser
 
 Sau đó tạo user: luongviet, pw: viet2004
 
-## 5. Tạo trang "Con Nợ Đến Hạn"
+## 5. Tạo trang Danh Sách Con Nợ
 
 ### a) Viết View (pawn_app/views.py):
 
