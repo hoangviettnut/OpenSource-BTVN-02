@@ -102,6 +102,7 @@ Thêm dữ liệu và truy cập http://192.168.1.17:8001/ để kiểm tra temp
 ### a) Thêm mạng nội bộ cho các Container (dockerc-compose.yml)
 
 Add các dòng này vào mỗi Container
+
 networks:
 
       - default
