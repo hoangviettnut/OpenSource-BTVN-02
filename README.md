@@ -46,10 +46,15 @@ Sau khi chạy sẽ sinh thêm các Components mới:
 Cấp phép truy cập: ALLOWED_HOSTS = ['*']
 
 ### Note: Do dùng Cloudflare Tunnel nên cái này không cần thiết vì đã được cấp HTTPS. Dùng trong trường hợp đăng nhập Django dính 403 (không có HTTPS mà dùng HTTP).
+
 CSRF_TRUSTED_ORIGINS = [
+
     'http://192.168.1.17:8001', #Ip máy này thay đổi thoải mái.
+    
     'http://localhost:8001',
+    
     'https://vayno.luonghoangviet.io.vn', 
+    
 ]
 
 Khai báo app: Thêm 'pawn_app', vào list INSTALLED_APPS
