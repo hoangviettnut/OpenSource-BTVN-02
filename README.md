@@ -38,8 +38,16 @@ Kết nối DB: Sửa khối DATABASES thành:
 <img width="1035" height="253" alt="image" src="https://github.com/user-attachments/assets/d1c6f85a-2b81-46e3-9d59-cfeea33b0cc2" />
 ### c) Áp dụng CSDL và Tạo Superuser:
 Sử dụng các command dưới đây lần lượt:
+docker compose exec web python manage.py makemigrations
 docker compose exec web python manage.py migrate
 docker compose exec web python manage.py createsuperuser
 Sau đó tạo user: luongviet, pw: viet2004
+
+## 5. Tạo trang "Con Nợ Đến Hạn"
+### a) Viết View (pawn_app/views.py):
+<img width="981" height="236" alt="image" src="https://github.com/user-attachments/assets/72b76ff0-7031-44d7-beea-db949b202b1c" />
+### b) Cấu hình URLs (config/urls.py):
+<img width="560" height="241" alt="image" src="https://github.com/user-attachments/assets/a22363e5-989d-41b5-82d6-f4f1250e8bf2" />
+### c) Tạo Template HTML (pawn_app/templates/home.html):
 
 
