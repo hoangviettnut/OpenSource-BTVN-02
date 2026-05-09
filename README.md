@@ -10,9 +10,9 @@ Sử dụng SSH để kết nối sang IDE (VS code) giúp thao tác edit dễ d
 <img width="372" height="26" alt="image" src="https://github.com/user-attachments/assets/a0a13aa7-4021-4804-8898-3cf9fbcc41d5" />
 ### b) Tại thư mục dự án tạo các thư mục:
 1. File requirements.txt<br>
-<img width="1064" height="122" alt="image" src="https://github.com/user-attachments/assets/0def7caf-df68-4887-a94d-205b6b7be10f" />
+<img width="342" height="140" alt="image" src="https://github.com/user-attachments/assets/ca4be9b4-62de-4df6-ac67-da6edeeae2f3" />
 2.  File Dockerfile<br>
-<img width="1062" height="396" alt="image" src="https://github.com/user-attachments/assets/1e02582c-a343-486b-9026-9ece3b3940e6" />
+<img width="837" height="413" alt="image" src="https://github.com/user-attachments/assets/ad91edf5-53b6-4490-889c-d29fe59f0979" />
 3. File docker-compose.yml
 <img width="1339" height="987" alt="image" src="https://github.com/user-attachments/assets/3a724a0e-f90a-4d9b-943c-570675669b01" />
 4. Khởi động bằng lệnh:
