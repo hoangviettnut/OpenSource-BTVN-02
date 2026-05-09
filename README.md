@@ -71,38 +71,31 @@ docker compose exec web python manage.py createsuperuser
 
 Sau đó tạo user: luongviet, pw: viet2004
 
-Truy cập: http://192.168.1.17:8001/admin/ để đăng nhập vào Django
-
-Truy cập: http://192.168.1.17:8081 để view bằng phpmyadmin
-
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/8f82d23e-51ed-4ebb-b65d-b0f024c27ca3" />
-
-
 ## 5. Tạo trang "Con Nợ Đến Hạn"
 
 ### a) Viết View (pawn_app/views.py):
 
-<img width="1043" height="549" alt="image" src="https://github.com/user-attachments/assets/4bd72259-7ca6-43f4-9a9f-6b2e0ae13c6d" />
-
-
+<img width="1070" height="595" alt="image" src="https://github.com/user-attachments/assets/5c9e8ac2-dae1-41be-8079-fdffbce315dc" />
 
 ### b) Cấu hình URLs (config/urls.py):
 
 <img width="560" height="241" alt="image" src="https://github.com/user-attachments/assets/a22363e5-989d-41b5-82d6-f4f1250e8bf2" />
 
-Truy cập vào Django để test: 
+Truy cập: http://192.168.1.17:8001/admin/ để đăng nhập vào Django
 
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/6dd3f693-8c98-4520-a321-e278a1593bd2" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/a9426e99-71e7-4a31-9f8b-4c5ed37d3449" />
 
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/c8aa3e3f-a35d-451f-824c-469cdb0498a6" />
+
+Truy cập: http://192.168.1.17:8081 để view bằng phpmyadmin
+
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/3780a218-dfa9-4155-a53f-fc7e3f24b240" />
 
 ### c) Tạo Template HTML (pawn_app/templates/home.html):
 
-<img width="368" height="104" alt="image" src="https://github.com/user-attachments/assets/922222a9-d116-4dc3-894f-2ae316c279a6" />
-
 Thêm dữ liệu và truy cập http://192.168.1.17:8001/ để kiểm tra template:
 
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/106c2c3b-839f-4821-894b-eb8a3659faef" />
-
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/00a93552-b36e-4996-924e-167e62dcc34d" />
 
 ## 6. Triển khai CloudFlare
 
@@ -149,11 +142,12 @@ Truy cập kiểm tra:
 
 camdo.luonghoangviet.io.vn
 
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/6ddad18f-1d2c-4bb6-9058-429613c72091" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/8c89c9c3-ecee-45fe-a7a1-5ac8e49d5bce" />
 
 pma.luonghoangviet.io.vn
 
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/43f2cdb6-b70e-430b-99ee-1f33feaafef9" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/28212cf1-4327-489e-b179-15680c03cc09" />
+
 
 
 
