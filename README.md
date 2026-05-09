@@ -80,11 +80,13 @@ Kết nối DB: Sửa khối DATABASES thành:
 
 Sử dụng các command dưới đây lần lượt:
 
+```
 docker compose exec web python manage.py makemigrations
 
 docker compose exec web python manage.py migrate
 
 docker compose exec web python manage.py createsuperuser
+```
 
 Sau đó tạo user: luongviet, pw: viet2004
 
@@ -120,14 +122,17 @@ Thêm dữ liệu và truy cập http://192.168.1.17:8001/ để kiểm tra temp
 
 Add các dòng này vào mỗi Container
 
+```
 networks:
 
       - default
       
       - web-gateway
+```
 
 Thêm phần này vào cuối file
 
+```
 networks:
 
   default:
@@ -135,6 +140,7 @@ networks:
   web-gateway:
   
     external: true
+```
 
 ### Note: Trong bài này cấu hình sử dụng Nginx và Cloudflare thành master nên chỉ cần mở 1 port cho nhiều project => Thêm cấu hình là xong thay vì phải tạo thêm Container vào docker-compose.yml của từng project => Tiết kiệm RAM, port.
 ### b) Cấu hình Nginx.conf
